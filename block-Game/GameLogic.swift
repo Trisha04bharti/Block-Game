@@ -153,23 +153,5 @@ final class GameLogic : ObservableObject {
         return true
     }
     
-    fileprivate func forEachBlockIndices(mode: ForEachMode = .rowByRow,
-                                         reversed: Bool = false,
-                                         _ action: (BlockMatrixType.Index) -> ()) {
-        var indices = (0..<4).map { $0 }
-        if reversed {
-            indices = indices.reversed()
-        }
-
-        for row in indices {
-            for col in indices {
-                if mode == .rowByRow {
-                    action((col, row))
-                } else {
-                    action((row, col))  // transpose
-                }
-            }
-        }
-    }
-    
+     
 }
