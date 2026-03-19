@@ -10,9 +10,33 @@
 		C6B1E0E82F6587CC00682FB1 /* block-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "block-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C669CE652F6BC86D004B0A5D /* Exceptions for "block-Game" folder in "block-Game" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				infl.plist,
+			);
+			target = C6B1E0E72F6587CC00682FB1 /* block-Game */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		C669CE662F6BC86D004B0A5D /* Exceptions for "block-Game" folder in "Compile Sources" phase from "block-Game" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = C6B1E0E42F6587CC00682FB1 /* Sources */;
+			membershipExceptions = (
+				infl.plist,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C6B1E0EA2F6587CC00682FB1 /* block-Game */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C669CE652F6BC86D004B0A5D /* Exceptions for "block-Game" folder in "block-Game" target */,
+				C669CE662F6BC86D004B0A5D /* Exceptions for "block-Game" folder in "Compile Sources" phase from "block-Game" target */,
+			);
 			path = "block-Game";
 			sourceTree = "<group>";
 		};
